@@ -18,6 +18,13 @@ export default function Layout(props: Props) {
                 <link rel="icon" href="/favicon.ico" />
                 <title>{siteTitle}</title>
             </Head>
+            <body style={{
+                backgroundImage: "url(images/coffee_beans_background.jpg)",
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+            }}>
+
+            </body>
             <div className="sidenav">
                 <Link href="/grinding">Grinding</Link>
                 <Link href="/network">Network</Link>
