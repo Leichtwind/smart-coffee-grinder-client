@@ -29,6 +29,7 @@ export default function Layout(props: Props) {
                 <Link href="/grinding">Grinding</Link>
                 <Link href="/network">Network</Link>
                 <Link href="/calibration">Calibration</Link>
+                <Link href="/statistics">Statistics</Link>
             </div>
             <main>{children}</main>
         </div>
